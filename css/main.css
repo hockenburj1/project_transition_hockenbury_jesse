@@ -9,10 +9,10 @@ html {
 body {
     margin: 0;
     padding: 0;
-    background: #050505 url(../img/img01.jpg) repeat;
+    background: #050505 url("../img/img01.jpg") repeat;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 14px;
-    color: #5B5B5B;
+    color: #5b5b5b;
 }
 
 h1,
@@ -65,17 +65,18 @@ a:hover {
 
 header {
     margin: 0 auto;
-    padding: 0 10px;
+    padding: 0;
     overflow: hidden;
 }
 
 /* Logo */
 
 #logo {
-    float: left;
-    width: 300px;
+    display: inline-block;
+    vertical-align: top;
+    max-width: 300px;
     margin: 0;
-    padding: 10px 0 0 0;
+    padding: 10px 0 0 20px;
     color: #ffffff;
 }
 
@@ -162,17 +163,19 @@ header {
 /* Menu */
 
 #menu {
+    display: inline-block;
     float: right;
-    width: 500px;
+    max-width: 500px;
     margin: 0 auto;
     padding: 0;
 }
 
 #menu ul {
-    float: right;
     margin: 0;
+    padding-left: 0;
     list-style: none;
     line-height: normal;
+    overflow: hidden;
 }
 
 #menu li {
@@ -207,17 +210,16 @@ header {
 /* Page */
 
 #page {
-    width: 1000px;
     margin: 0 auto;
-    padding: 30px 0px;
+    padding: 30px 25px;
 }
 
 /* Content */
 
 #content {
     float: right;
-    width: 660px;
-    padding: 0px 0px 0px 0px;
+    max-width: 660px;
+    padding: 0;
 }
 
 .post {
@@ -274,7 +276,7 @@ header {
     padding: 5px 5px;
     margin-right: 10px;
     background: #222222;
-    color: #FFFFFF;
+    color: #ffffff;
     text-align: center;
     text-decoration: none;
 }
@@ -285,7 +287,7 @@ header {
     width: 88px;
     padding: 5px 5px;
     background: #222222;
-    color: #FFFFFF;
+    color: #ffffff;
     text-align: center;
     text-decoration: none;
 }
@@ -294,9 +296,9 @@ header {
 
 #sidebar {
     float: left;
-    width: 270px;
-    margin: 0px;
-    padding: 30px 0px 0px 0px;
+    max-width: 270px;
+    margin: 0;
+    padding: 30px 0 0 0;
 }
 
 #sidebar ul {
@@ -311,14 +313,14 @@ header {
 }
 
 #sidebar li ul {
-    margin: 0px 0px;
+    margin: 0;
     padding-bottom: 30px;
 }
 
 #sidebar li li {
     line-height: 40px;
-    border-bottom: 1px solid #E7EBED;
-    margin: 0px 0px;
+    border-bottom: 1px solid #e7ebed;
+    margin: 0;
     border-left: none;
 }
 
@@ -331,21 +333,21 @@ header {
 }
 
 #sidebar li li a {
-    padding: 0px 0px 0px 20px;
-    background: url(../img/img04.jpg) no-repeat left 50%;
+    padding: 0 0 0 20px;
+    background: url("../img/img04.jpg") no-repeat left 50%;
 }
 
 #sidebar h2 {
     height: 38px;
-    padding: 0px 0px 30px 0px;
-    letter-spacing: -.5px;
+    padding: 0 0 30px 0;
+    letter-spacing: -0.5px;
     font-size: 1.8em;
     color: #222222;
 }
 
 #sidebar p {
-    margin: 0 0px;
-    padding: 0px 30px 20px 30px;
+    margin: 0;
+    padding: 0 30px 20px 30px;
     text-align: justify;
 }
 
