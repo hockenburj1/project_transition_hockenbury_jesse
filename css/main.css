@@ -524,3 +524,24 @@ header {
 .list-style1 a {
     color: #7F7F7F;
 }
+
+@media (max-width: 900px) {
+    #content {
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 650px) {
+    #menu {
+        float: none;
+    }
+
+    #menu a {
+        line-height: 45px;
+    }
+
+    #logo {
+        max-width: 100%;
+        padding: 5px 0 5px 8px;
+    }
+}
