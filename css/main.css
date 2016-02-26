@@ -408,7 +408,6 @@ header {
     color: #262626;
 }
 
-
 #footer-content #fbox1 {
     float: left;
     width: 300px;
@@ -446,14 +445,13 @@ header {
 
 /* Footer */
 
-#footer {
-    height: 140px;
+footer {
     margin: 0 auto;
-    padding: 50px 0 15px 0;
+    padding: 25px 0 25px 0;
     font-family: 'Abel', sans-serif;
 }
 
-#footer p {
+footer p {
     margin: 0;
     padding-top: 10px;
     letter-spacing: 1px;
@@ -461,10 +459,10 @@ header {
     font-size: 14px;
     text-transform: uppercase;
     text-align: center;
-    color: #5E5E5E;
+    color: #5e5e5e;
 }
 
-#footer a {
+footer a {
     color: #5E5E5E;
 }
 
@@ -478,12 +476,12 @@ header {
 
 #marketing .text1 {
     float: left;
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
     letter-spacing: -2px;
     text-transform: lowercase;
     font-size: 34px;
-    color: #345E9B;
+    color: #345e9b;
 }
 
 #marketing .text2 {
@@ -494,8 +492,8 @@ header {
     display: block;
     width: 252px;
     height: 38px;
-    padding: 15px 0px 0px 0px;
-    background: url(../img/img07.jpg) no-repeat left top;
+    padding: 15px 0 0 0;
+    background: url("../img/img07.jpg") no-repeat left top;
     letter-spacing: -2px;
     text-align: center;
     text-transform: lowercase;
@@ -512,10 +510,6 @@ header {
     width: 100%;
 }
 
-#banner .content {
-}
-
-
 .list-style1 {
     margin: 0;
     padding: 0;
@@ -523,7 +517,7 @@ header {
 }
 
 .list-style1 a {
-    color: #7F7F7F;
+    color: #7f7f7f;
 }
 
 .hidden-header {
